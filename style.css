@@ -1,0 +1,937 @@
+/** Menu */
+
+.menu--cont{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+}
+
+.menu{
+    height: 7vh;
+    width: 50vw;
+    text-align: center;
+    color: white;
+    font-size: 2.1vw;
+    padding: .5vw;
+    border: 2px solid white;
+}
+
+.menu--index{
+    background-color: lime;
+    opacity: .3;
+}
+
+.menu--index:hover{
+    opacity: 1;
+}
+
+.menu--about{
+    background-color: orangered;
+    opacity: .3;
+}
+
+.menu--about:hover{
+    opacity: 1;
+}
+
+/** Index */
+
+.index--geoBike-container{
+    position: fixed;
+    z-index: 50;
+    bottom: 43vh;
+    width: 20vw;
+    left: 40vw;
+}
+
+.index--bike{
+    width: 16vw;
+    position: absolute;
+}
+
+.index--wheel-img{
+    width: 10vw;
+    top: 18.6vh;
+}
+
+.index--wheel-img-left{
+    left: -4.8vw;
+    animation: animLeft 2s infinite;
+}
+
+@keyframes animLeft {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.index--wheel-img-right{
+    left: 8.5vw;
+    animation: animLeft 2s infinite;
+}
+
+.body--index{
+    background-image: linear-gradient(to right, darkblue, blue, orangered, orange, yellow);
+    width: 300vw;
+    height: 96vh;
+    overflow: hidden;
+}
+
+.index--pasto{
+    position: absolute;
+    width: 351vw;
+    left: -50vw;
+    height: 50vh;
+    bottom: 0vh;
+}
+
+.index--suelo{
+    position: absolute;
+    height: 12vh;
+    width: 300vw;
+    bottom: 5vh;
+}
+
+.index--circulo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 10;
+    top: 0;
+}
+
+.index--luna{
+    left: 1vw;
+    background-color: #fff;
+    box-shadow: 10px 20px 50px white;
+}
+
+.index--sol{
+    left: 268vw;
+    background-color: orangered;
+    box-shadow: -20px 20px 50px red;
+}
+
+.index--author-container{
+    position: fixed;
+    z-index: 21;
+    top: 82vh;
+    left: 79vw;
+    width: 20vw;
+    height: auto;
+    padding: 1vh 1vw;
+    background-color: rgba(255, 255, 255, 0.500);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2vw;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+}
+
+.index--author-logo{
+    width: 5vw;
+}
+
+.index--author{
+    padding-top: 1vh;
+}
+
+/** News-Stand */
+
+.news-stand--container{
+    position: absolute;
+    left: 0vw;
+}
+
+.index--ns-img{
+    z-index: 20;
+    position: absolute;
+    width: 14vw;
+    top: 38vh;
+    left: 1vw;
+    cursor: pointer;
+}
+
+.index--ns-title{
+    z-index: 25;
+    color: white;
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: absolute;
+    top: 62vh;
+    left: 7vw;
+    animation: animNs infinite 2s;
+}
+
+@keyframes animNs {
+    0%{
+        color: white;
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}
+
+.index--ns-sign{
+    width: 11vw;
+    height: 13.5vh;
+    background-color: brown;
+    position: absolute;
+    z-index: 20;
+    top: 48vh;
+    left: 16vw;
+    border-radius: 10px;
+    padding: 1vh .5vw;
+}
+
+.index--ns-palo{
+    width: 1.5vw;
+    height: 10vh;
+    background-color: brown;
+    position: absolute;
+    top: 60vh;
+    left: 20.5vw;
+    z-index: 15;
+}
+
+.index--ns-parr{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 1.1vw;
+    z-index: 35;
+    animation: animNs infinite 2s;
+}
+
+
+
+/* * arrows sign */
+
+.index--sign-container-arrows{
+    position: fixed;
+    z-index: 25;
+    top: 24vh;
+    left: -10vw;
+}
+
+.index--ns-singn-arrows{
+    top: 52vh;
+    z-index: 20;
+    width: 7vw;
+    height: 10vh;
+    background-color: brown;
+    position: absolute;
+}
+
+.index--ns-sign-arrows-left{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    left: 15vw;
+}
+
+.index--ns-sign-arrows-right{
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    left: 21vw;
+}
+
+.index--ns-parr-arrows{
+    position: absolute;
+    color: white;
+    z-index: 21;
+    top: 55vh;
+    left: 17vw;
+    font-size: 1.5vw;
+    width: 10vw;
+    animation: animArrows infinite 1.5s;
+}
+
+.index--ns-palo-2{
+    left: 21vw;
+}
+
+@keyframes animArrows {
+    0%{
+        color: white;
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}
+
+/* * phone cabs */
+
+.index--phone-cab-container{
+    width: 30vw;
+    height: auto;
+    position: relative;
+    top: 44vh;
+    left: 115vw;
+}
+
+.index--cab{
+    position: absolute;
+    width: 7vw;
+    top: -20vh;
+    z-index: 20;
+}
+
+.index--cab-phone{
+    left: -4.5vw;
+}
+
+.index--cab-whatsapp{
+    left: 5.5vw;
+}
+
+.index--cab-messenger{
+    left: 15vw;
+}
+
+.index--cab-sign-container{
+    width: 13vw;
+    height: 20vh;
+    position: relative;
+    z-index: 20;
+    left: 136vw;
+    top: 30vh;
+}
+
+.index--cab-sign-arrow{
+    width: 15vw;
+    height: 13vh;
+    background-color: rgb(93, 46, 12);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    position: absolute;
+    z-index: 20;
+}
+
+.index--cab-sign-palo{
+    width: 2vw;
+    height: 12vh;
+    background-color: rgb(93, 46, 12);
+    position: absolute;
+    left: 8vw;
+    top: 8vh;
+}
+
+.index--cab-parr{
+    position: absolute;
+    top: 3.7vh;
+    left: 4vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    animation: animCab infinite 1.5s;
+}
+
+@keyframes animCab {
+    0%{
+        color: white;
+    }
+    50%{
+        color: brown;
+    }
+    100%{
+        color: white;
+    }
+}
+
+/** Contact */
+
+.contact--container{
+    width: 80vw;
+    height: auto;
+    position: relative;
+    left: 33vw;
+    top: -18vh;
+}
+
+.pantalla{
+    width: 30vw;
+    height: 65vh;
+    background-color: white;
+    position: absolute;
+    top: 2vh;
+    left: 125vw;
+    clip-path: polygon(00% 20%, 100% 0%, 100% 100%, 0% 80%);
+    z-index: 10;
+}
+
+.contact--sentado{
+    width: 15vw;
+    background-color: none;
+    position: absolute;
+    left: 147vw;
+    top: 48vh;
+    z-index: 10;
+}
+
+.contact--form-container{
+    width: 28vw;
+    height: 61vh;
+    background-color: #ccc;
+    clip-path: polygon(00% 20%, 100% 0%, 100% 100%, 0% 80%);
+    position: relative;
+    top: 0vh;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.contact--left-side{
+    position: relative;
+    bottom: -20%;
+    height: 35vh;
+    width: 50%;
+    left: 0vw;
+}
+
+.contact--right-side{
+    position: relative;
+    top: 5.5vh;
+    right: -1vw;
+    height: 44vh;
+    width: 60%;
+    margin: 1.5vh 1.5vw;
+}
+
+.contact--label{
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: rgb(93, 46, 12);
+}
+
+.contact--input{
+    height: 4vh;
+    width: 100%;
+    padding-left: .5vw;
+    text-align: center;
+}
+
+.contact--phone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.contact--label-phone{
+    position: absolute;
+    top: 27vh;
+}
+
+.contact--email{
+    position: absolute;
+    bottom: 9vh;
+    left: 0;
+}
+
+.contact--label-email{
+    position: absolute;
+    top: 18vh;
+}
+
+.contact--nombre{
+    position: absolute;
+    left: 0;
+    top: 13vh;
+}
+
+.contact--label-nombre{
+    position: absolute;
+    top: 9vh;
+}
+
+.contact--fecha{
+    position: absolute;
+    left: 0;
+    top: 4vh;
+}
+
+.contact--submit{
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    height: 8vh;
+    width: 100%;
+    font-weight: 600;
+    font-size: 2vw;
+    background-color: rgba(165, 42, 42, 0.800);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.contact--msm{
+    position: absolute;
+    top: 5.5vh;
+    width: 100%;
+    height: 67%;
+    padding: 1vh;
+}
+
+.contact--label-msm{
+    position: absolute;
+    top: 1vh;
+    padding: -2vh;
+}
+
+.contact--arrow-container{
+    position: relative;
+    width: 18vw;
+    height: 25vh;
+    z-index: 25;
+    left: 187vw;
+    top: 10vh;
+    background-color: transparent;
+}
+
+.contact--arrow-sign{
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(88, 22, 22);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.contact--arrow-sign-palo{
+    width: 2vw;
+    height: 12vh;
+    background-color: rgb(88, 22, 22);
+    position: absolute;
+    left: 10vw;
+    top: 14vh;
+}
+
+.contact--arrow-parr{
+    color: white;
+    position: absolute;
+    top: 4.8vh;
+    left: 7vw;
+    font-weight: 600;
+    font-size: 1.3vw;
+    animation: animContact infinite 1.5s;
+}
+
+@keyframes animContact {
+    0%{
+        color: white;
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}
+
+/** Tech */
+
+.tech--container{
+    position: relative;
+    top: 2vh;
+    left: 25vw;
+    width: auto;
+    height: auto;
+    z-index: 20;
+}
+
+.tech{
+    position: absolute;
+    width: 80vw;
+    height: 70vh;
+}
+
+.tech--background{
+    width: 19.9vw;
+    height: 21.8vh;
+    background-color: transparent;
+    position: absolute;
+    left: 53.7vw;
+    top: 44.5vh;
+    z-index: 30;
+    color: transparent;
+}
+
+.tech--background:hover{
+    background-color: hsla(80, 89%, 47%, 0.500);
+    color: white;
+    text-align: justify;
+    font-size: 1.4vw;
+    padding-top: 2vh;
+}
+
+.tech--bg{
+    padding-top: 1.5vh;
+}
+
+.tech--door{
+    background-color: transparent;
+    width: 7.9vw;
+    height: 26.5vh;
+    position: absolute;
+    top: 43.2vh;
+    left: 8vw;
+    z-index: 30;
+    cursor: pointer;
+}
+
+.tech--door:hover{
+    background-color: hsla(80, 89%, 47%, 0.5);
+}
+
+.hov-here--palo{
+    width: 1.2vw;
+    height: 10vh;
+    position: absolut;
+    background-color: rgba(93, 46, 12);
+}
+
+.hov-here--palo-tech{
+    position: absolute;
+    left: -8.5vw;
+    top: 3vh;
+    background-color: rgba(93, 46, 12);
+    width: 1vw;
+    height: 12vh;
+}
+
+/** about */
+
+.index--about-container{
+    position: relative;
+    top: -48vh;
+    left: 210vw;
+    width: auto;
+    height: auto;
+    z-index: 20;
+}
+
+.about{
+    position: absolute;
+    width: 80vw;
+    height: 70vh;
+}
+
+.about--background{
+    width: 49vw;
+    height: 40vh;
+    background-color: transparent;
+    position: absolute;
+    left: 31vw;
+    top: 28.9vh;
+    z-index: 30;
+    color: transparent;
+    
+}
+
+.about--background:hover{
+    background-color: rgba(0, 128, 0, 0.500);
+    color: white;
+}
+
+.about--bg{
+    font-size: 2.2vw;
+    margin: 3vw;
+    margin-top: 7.5vh;
+    padding: 1vw;
+}
+
+.about--door{
+    background-color: transparent;
+    width: 6.5vw;
+    height: 14vh;
+    position: absolute;
+    top: 55.9vh;
+    left: 13.3vw;
+    z-index: 30;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.about--door:hover{
+    background-color: rgba(0, 128, 0, 0.500);
+}
+
+.hover-here--container-tech{
+    position: relative;
+    left: 112vw;
+    top: 63vh;
+    z-index: 40;
+}
+
+.hover-here--container-about{
+    position: relative;
+    left: 302vw;
+    top: 10vh;
+    z-index: 40;
+}
+
+.hov-here--palo-about{
+    position: absolute;
+    z-index: 20;
+    left: -9vw;
+    top: 2vh;
+    width: 1vw;
+    height: 10vh;
+    background-color: rgb(93, 46, 12);
+}
+
+.hov-here--flecha{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    width: 8vw;
+    height: 10vh;
+    background-color: rgb(93, 46, 12);
+    position: absolute;
+    top: -4vh;
+    left: -13vw;
+}
+
+.hov-here--title{
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    padding-top: 3.5vh;
+    padding-left: 1.5vw;
+    font-weight: 600;
+    animation: animHover 1s infinite;
+}
+
+
+
+@keyframes animHover {
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}
+
+
+
+/** work */
+
+.icons--container-cont{
+    display: flex;
+    width: 98.5vw;
+}
+
+.icons--django-container{
+    width: 28vw;
+    padding-left: 1vw;
+    
+    
+    border-radius: 15px;
+}
+
+.icons--tech-mid{
+    margin-top: 11vh;
+}
+
+.body--work{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.icons--container{
+    width: 96vw;
+    left: 10vw;
+    height: 60vh;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+    border: 3px solid white;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: none;
+}
+
+.icons--container-skills{
+    padding: 1vw;
+    border: 3px solid white;
+    width: 98vw;
+    margin-left: 1vw;
+    border-radius: 15px;
+    padding: 1vh 1vw;
+
+}
+
+.icons--tech{
+    width: 7vw;
+}
+
+.icons--skills{
+    width: 4%;
+    height: 8vh;
+}
+
+.icons--skills-me{
+    width: 6%;
+    height: 8vh;
+}
+
+.icons--skills-office{
+    width: 16vw;
+}
+
+
+
+/** About */
+
+.body--about{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.about--container{
+    width: 47vw;
+    height: 87vh;
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    border: 2px solid rgb(9, 143, 22);
+    padding: 2vh 2vw;
+}
+
+.about--container-left{
+    left: 2vw;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: none;
+}
+
+.about--container-right{
+    left: 51vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.about--button{
+    color: white;
+    border: 2px solid white;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 1.4vw;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.about--button:hover{
+    opacity: 1;
+}
+
+.about--display{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 87vh;
+    padding: 2vh 2vw;
+    background-color: black;
+}
+
+.about--display-title{
+    color: white;
+}
+
+.about--display-parr{
+    width: 43vw;
+    text-align: justify;
+    color: white;
+}
+
+.about--display-data{
+    display: none;
+}
+
+.about--display-works{
+    display: none;
+}
+
+.about--display-studies{
+    display: none;
+}
+
+.about--display-courses{
+    display: none;
+}
+
+.about--display-excelences{
+    display: none;
+}
+
+.about--display-sports{
+    display: none;
+}
+
+.about--display-programming{
+    display: none;
+}
+
+.about--display-teaching{
+    display: none;
+}
+
+.about--display-selling{
+    display: none;
+}
+
+.about--display-phones{
+    display: none;
+}
+
+.about--display-sickness{
+    display: none;
+}
+
+.about--display-hobbies{
+    display: none;
+}
+
+.about--display-business{
+    display: none;
+}
+
+.about--display-goals{
+    display: none;
+}
+
+.about--display-dreams{
+    display: none;
+}
