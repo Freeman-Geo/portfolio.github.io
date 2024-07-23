@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2vw;
+    padding: 2vh;
+    background-color: rgb(238, 238, 161);
+}
+
+/** all */
+
+.align{
+    text-align: center;
+}
+
+.ns--back{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    width: 12vw;
+    height: 8vh;
+    background-color: brown;
+    color: white;
+    text-align: end;
+    padding: .5vh .5vw;
+    margin: 0;
+    cursor: pointer;
+}
+
+.fecha-container{
+    width: 100px;
+    height: 20px;
+    
+    border: 1px solid #111;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.fecha{
+    color: red;
+    display: block;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: all 2s;
+    animation: anim 2000ms 2s infinite;
+    text-align: end;
+    margin-right: 15px;
+}
+
+@keyframes anim {
+    0%{
+        color: red;
+    }
+    50%{
+        color: transparent;
+    }
+    100%{
+        color: red;;
+    }
+}
+
+.hr1{
+    color: #111;
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.periodico--pagx-margin__container{
+    background-color: rgb(238, 238, 161);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    column-count: 4;
+    padding: 10px;
+    column-gap: 15px;
+    column-rule: 2px dashed maroon;
+}
+
+
+
+.periodico--pag1-primer-parr__hero{
+    text-align: justify;
+}
+
+.periodico--pag1-primer-title__hero{
+    font-weight: 600;
+    font-size: 22px;
+    color: maroon;
+    text-align: start;
+}
+
+.periodico--pag1-primer-parr__span{
+    font-size: 40px;
+    color: maroon;
+}
+
+.periodico--botton-up__container{
+    position: fixed;
+    background-color: #fff;
+    width: min-content;
+    height: auto;
+    padding: 18px;
+    border-radius: 50%;
+    bottom: 50%;
+    right: 0px;
+    margin-right: 0px;
+}
+
+.periodico--botton-up__container:hover{
+    background-color: red;
+}
+
+.periodico-botton-up{
+    position: fixed;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);    
+    width: 22px;
+    height: 15px;
+    background-color: maroon;
+    bottom: 51.3%;
+    right: 5px;
+}
+
+.periodico-botton-up:hover{
+    background-color: #fff;
+}
+
+
+.fake-dr{
+    width: 140px;
+}
+
+
+.periódico--pag-2{
+    background-color: rgb(238, 238, 161);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    column-count: 3;
+    padding: 10px;
+    column-gap: 15px;
+    column-rule: 2px dashed maroon;
+}
+
+.periodico--botton-up__container-before{
+    left: 5px;
+}
+
+.periodico--botton-up__container-before:hover{
+    background-color: maroon;
+}
+
+.periodico-botton-up-before{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    left: 10px;
+}
+
+.periodico-botton-up-before:hover{
+    background-color: white;
+}
+
+.pag1-tercera-imagen__hero{
+    width: 20vw;
+}
