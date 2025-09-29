@@ -147,7 +147,7 @@
 
 /** News-Stand */
 
-.news-stand--container{
+/* .news-stand--container{
     position: absolute;
     left: 0vw;
 }
@@ -206,7 +206,7 @@
     top: 60vh;
     left: 20.5vw;
     z-index: 15;
-}
+} */
 
 .index--ns-parr{
     text-align: center;
@@ -252,11 +252,13 @@
     color: white;
     z-index: 21;
     top: 55vh;
-    left: 17vw;
+    left: 16.8vw;
     font-size: 1.5vw;
     width: 10vw;
     animation: animArrows infinite 1.5s;
 }
+
+
 
 .index--ns-palo-2{
     left: 21vw;
@@ -292,15 +294,15 @@
 }
 
 .index--cab-phone{
-    left: -4.5vw;
+    left: -13vw;
 }
 
 .index--cab-whatsapp{
-    left: 5.5vw;
+    left: -3.4vw;
 }
 
 .index--cab-messenger{
-    left: 15vw;
+    left: 6vw;
 }
 
 .index--cab-sign-container{
@@ -308,7 +310,7 @@
     height: 20vh;
     position: relative;
     z-index: 20;
-    left: 136vw;
+    left: 128vw;
     top: 30vh;
 }
 
@@ -376,8 +378,8 @@
     width: 15vw;
     background-color: none;
     position: absolute;
-    left: 147vw;
-    top: 48vh;
+    left: 148vw;
+    top: 46vh;
     z-index: 10;
 }
 
@@ -544,7 +546,7 @@
 .tech--container{
     position: relative;
     top: 2vh;
-    left: 25vw;
+    left: 8vw;
     width: auto;
     height: auto;
     z-index: 20;
@@ -603,7 +605,7 @@
 
 .hov-here--palo-tech{
     position: absolute;
-    left: -8.5vw;
+    left: -23vw;
     top: 3vh;
     background-color: rgba(93, 46, 12);
     width: 1vw;
@@ -684,7 +686,7 @@
 .hov-here--palo-about{
     position: absolute;
     z-index: 20;
-    left: -9vw;
+    left: -8vw;
     top: 2vh;
     width: 1vw;
     height: 10vh;
@@ -698,7 +700,7 @@
     background-color: rgb(93, 46, 12);
     position: absolute;
     top: -4vh;
-    left: -13vw;
+    left: -12vw;
 }
 
 .hov-here--title{
@@ -737,8 +739,6 @@
 .icons--django-container{
     width: 28vw;
     padding-left: 1vw;
-    
-    
     border-radius: 15px;
 }
 
@@ -764,11 +764,36 @@
     border: 3px solid white;
     margin-left: 1vw;
     margin-top: 2vh;
+}
+
+.icons--skills{
+    width: 5vw;
+    height: 5vw;
+}
+
+.icons--skills-office{
+    width: 16vw;
+    height: 5vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+}
+
+.icons--container-js{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    overflow-y: scroll;
-    scrollbar-width: none;
-    scrollbar-color: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icons--container-py{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.icons--container-other{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    padding-top: 10vh;
 }
 
 .icons--container-skills{
@@ -778,28 +803,13 @@
     margin-left: 1vw;
     border-radius: 15px;
     padding: 1vh 1vw;
+    display: flex;
 
 }
 
 .icons--tech{
-    width: 7vw;
+    width: 6vw;
 }
-
-.icons--skills{
-    width: 4%;
-    height: 8vh;
-}
-
-.icons--skills-me{
-    width: 6%;
-    height: 8vh;
-}
-
-.icons--skills-office{
-    width: 16vw;
-}
-
-
 
 /** About */
 
@@ -934,4 +944,9 @@
 
 .about--display-dreams{
     display: none;
+}
+
+
+.hov-here--flecha-tech{
+    left: -27vw;
 }
