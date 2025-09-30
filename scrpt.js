@@ -9,313 +9,222 @@ document.addEventListener("keydown", (event) => {
     }
 });
 
-let botData = document.getElementById("bot--data")
-let botWorks = document.getElementById("bot--works")
-let botStudies = document.getElementById("bot--studies")
-let botCourses = document.getElementById("bot--courses")
-let botExcelences = document.getElementById("bot--excelences")
-let botSports = document.getElementById("bot--sports")
-let botProgramming = document.getElementById("bot--programming")
-let botTeaching = document.getElementById("bot--teaching")
-let botSelling = document.getElementById("bot--selling")
-let botPhones = document.getElementById("bot--phones")
-let botSickness = document.getElementById("bot--sickness")
-let botHobbies = document.getElementById("bot--hobbies")
-let botBusiness = document.getElementById("bot--business")
-let botGoals = document.getElementById("bot--goals")
-let botDreams = document.getElementById("bot--dreams")
 
-let disData = document.getElementById("dis--data")
-let disWorks = document.getElementById("dis--works")
-let disStudies = document.getElementById("dis--studies")
-let disCourses = document.getElementById("dis--courses")
-let disExcelences = document.getElementById("dis--excelences")
-let disSports = document.getElementById("dis--sports")
-let disProgramming = document.getElementById("dis--programming")
-let disTeaching = document.getElementById("dis--teaching")
-let disSelling = document.getElementById("dis--selling")
-let disPhones = document.getElementById("dis--phones")
-let disSickness = document.getElementById("dis--sickness")
-let disHobbies = document.getElementById("dis--hobbies")
-let disBusiness = document.getElementById("dis--business")
-let disGoals = document.getElementById("dis--goals")
-let disDreams = document.getElementById("dis--dreams")
+let data = document.getElementById("data")
+let est = document.getElementById("est")
+let cursos = document.getElementById("cursos")
+let lang = document.getElementById("lang")
+let tech = document.getElementById("tech")
+let trab = document.getElementById("trab")
+let hab = document.getElementById("hab")
+let ex = document.getElementById("ex")
+let tiempo = document.getElementById("tiempo")
+let dep = document.getElementById("dep")
+let vida = document.getElementById("vida")
+let sobre = document.getElementById("sobre")
+
+let dispData = document.getElementById("disp-data")
+let dispEst = document.getElementById("disp-est")
+let dispCursos = document.getElementById("disp-cursos")
+let dispLang = document.getElementById("disp-lang")
+let dispTech = document.getElementById("disp-tech")
+let dispTrab = document.getElementById("disp-trab")
+let dispHab = document.getElementById("disp-hab")
+let dispEx = document.getElementById("disp-ex")
+let dispTiempo = document.getElementById("disp-tiempo")
+let dispDep = document.getElementById("disp-dep")
+let dispVida = document.getElementById("disp-vida")
+let dispSobre = document.getElementById("disp-sobre")
 
 
-botData.addEventListener("click", ()=>{
-    disData.style.display="block"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Datos Personales
+data.addEventListener("click", ()=> {
+    dispData.style.display = "block"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botWorks.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="block"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Estudios
+est.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "block"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botStudies.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="block"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Cursos
+cursos.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "block"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botCourses.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="block"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Idiomas
+lang.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "block"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botExcelences.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="block"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Tecnología
+tech.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "block"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botSports.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="block"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Trabajos
+trab.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "block"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botProgramming.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="block"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Habilidades
+hab.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "block"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botTeaching.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="block"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Experiencia (Ex)
+ex.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "block"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botSelling.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="block"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Tiempo libre
+tiempo.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "block"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botPhones.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="block"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Departamento (Dep)
+dep.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "block"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "none"
 })
 
-botSickness.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="block"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Conocimientos de Vida
+vida.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "block"
+    dispSobre.style.display = "none"
 })
 
-botHobbies.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="block"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
+// Sobre mí
+sobre.addEventListener("click", ()=> {
+    dispData.style.display = "none"
+    dispEst.style.display = "none"
+    dispCursos.style.display = "none"
+    dispLang.style.display = "none"
+    dispTech.style.display = "none"
+    dispTrab.style.display = "none"
+    dispHab.style.display = "none"
+    dispEx.style.display = "none"
+    dispTiempo.style.display = "none"
+    dispDep.style.display = "none"
+    dispVida.style.display = "none"
+    dispSobre.style.display = "block"
 })
-
-botBusiness.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="block"
-    disGoals.style.display="none"
-    disDreams.style.display="none"
-})
-
-botGoals.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="block"
-    disDreams.style.display="none"
-})
-
-botDreams.addEventListener("click", ()=>{
-    disData.style.display="none"
-    disWorks.style.display="none"
-    disStudies.style.display="none"
-    disCourses.style.display="none"
-    disExcelences.style.display="none"
-    disSports.style.display="none"
-    disProgramming.style.display="none"
-    disTeaching.style.display="none"
-    disSelling.style.display="none"
-    disPhones.style.display="none"
-    disSickness.style.display="none"
-    disHobbies.style.display="none"
-    disBusiness.style.display="none"
-    disGoals.style.display="none"
-    disDreams.style.display="block"
-})
-
-let newsStand = document.getElementById("news-stand--container")
-let moonSpeech = document.getElementById("index--ns-speech");
-
-newsStand.addEventListener("click", () => {
-    moonSpeech.style.display="block"
-});
-
