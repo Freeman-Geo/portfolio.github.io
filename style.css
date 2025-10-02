@@ -854,6 +854,8 @@ grid-template-columns: repeat(3, 1fr);
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 600;
 }
 
 .about--container-left{
