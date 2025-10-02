@@ -4,21 +4,16 @@ Por arreglar:
 
 Tech;
 
-Acomodar icons (Asegurar que queden dentro del bgc gris)
-Dejar "More Skills" dentro del bgc gris
-Trabajar "See my work" con los proyectos de render (Por lo pronto)
-El logo de Tensorflow tiene mucho gausiano, quietarle un poco
-
-En "See my Work";
-    separarlo en 3 partes
-        Full Stack, Diseños, y AI y ML
+- Acomodar iconos
+- Poner los proyectos ya en linea (render al menos)
 
 -----------------
 
 Curriculum;
 
-Crecer la letra de los botones
-Trabajar los displays (pensar en bgc o bgi)
+- Trabajar más los displays (pensar en bgc o bgi)
+- Falta Habilidades
+
 
 -----------------
 
