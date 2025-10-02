@@ -24,6 +24,8 @@ Trabajar los displays (pensar en bgc o bgi)
 
 Index;
 
+Subir un poco al mono de la bicicleta, para que coinsidan las llantas.
+
 Subir aunque sea a render los proyectos terminados que se puedan
 
 Hacer que funcione el Mensaje, (contact en index) (Tratar de evitar Flask, sólo js, si no no importa, usamos python)

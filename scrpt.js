@@ -36,7 +36,7 @@ let dispDep = document.getElementById("disp-dep")
 let dispVida = document.getElementById("disp-vida")
 let dispSobre = document.getElementById("disp-sobre")
 
-
+let mainTitle = document.getElementById("main--title")
 // Datos Personales
 data.addEventListener("click", ()=> {
     dispData.style.display = "block"
@@ -51,6 +51,8 @@ data.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Estudios
@@ -67,6 +69,8 @@ est.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Cursos
@@ -83,6 +87,8 @@ cursos.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Idiomas
@@ -99,6 +105,8 @@ lang.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Tecnología
@@ -115,6 +123,8 @@ tech.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Trabajos
@@ -131,6 +141,8 @@ trab.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Habilidades
@@ -147,6 +159,8 @@ hab.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Experiencia (Ex)
@@ -163,6 +177,8 @@ ex.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Tiempo libre
@@ -179,6 +195,8 @@ tiempo.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Departamento (Dep)
@@ -195,6 +213,8 @@ dep.addEventListener("click", ()=> {
     dispDep.style.display = "block"
     dispVida.style.display = "none"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Conocimientos de Vida
@@ -211,6 +231,8 @@ vida.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "block"
     dispSobre.style.display = "none"
+
+    mainTitle.style.display = "none"
 })
 
 // Sobre mí
@@ -227,4 +249,6 @@ sobre.addEventListener("click", ()=> {
     dispDep.style.display = "none"
     dispVida.style.display = "none"
     dispSobre.style.display = "block"
+
+    mainTitle.style.display = "none"
 })
