@@ -252,3 +252,22 @@ sobre.addEventListener("click", ()=> {
 
     mainTitle.style.display = "none"
 })
+
+
+  const boton = document.getElementById("oreja");
+  const texto = document.getElementById("sobreMi");
+
+  boton.addEventListener("click", () => {
+    // Creamos el objeto de síntesis
+    const utterance = new SpeechSynthesisUtterance(texto.textContent);
+
+    // Opcional: elegir idioma/español
+    utterance.lang = "es-ES";  
+
+    // Opcional: velocidad y tono
+    utterance.rate = 1;   // velocidad (1 = normal)
+    utterance.pitch = 1;  // tono (1 = normal)
+
+    // Hacer que hable
+    speechSynthesis.speak(utterance);
+  });
