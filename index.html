@@ -81,7 +81,8 @@
 
 <div class="contact--container">
     <div class="pantalla">
-        <form action="" class="contact--form-container">
+
+        <!-- <form action="" class="contact--form-container">
             <div class="contact--left-side">
                 <div class="input--container input--container-fecha">
                     <label for="contact--input-fecha" class="contact--label contact--label-fecha" placeholder="Elige la fecha de hoy">Fecha</label>
@@ -105,9 +106,46 @@
                 <textarea class="contact--msm" id="contact--msm"></textarea>
                 <input type="submit" value="Submit" class="contact--submit" id="contact--submit">
             </div>
-        </form>
+        </form> -->
+
+        <form action="https://formsubmit.co/geofreemanweb@gmail.com" method="POST" class="contact--form-container">
+    <!-- Evita captcha -->
+    <input type="hidden" name="_captcha" value="false">
+    <!-- Redirección opcional después de enviar -->
+    <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+
+    <div class="contact--left-side">
+        <div class="input--container input--container-fecha">
+            <label for="contact--fecha" class="contact--label contact--label-fecha">Fecha</label>
+            <input type="date" class="contact--input contact--fecha" id="contact--fecha" name="fecha" required>
+        </div>
+        <div class="input--container input--container-nombre">
+            <label for="contact--nombre" class="contact--label contact--label-nombre">Nombre</label>
+            <input type="text" class="contact--input contact--nombre" id="contact--nombre" name="nombre" required>
+        </div>
+        <div class="input--container input--container-email">
+            <label for="contact--email" class="contact--label contact--label-email">E-mail</label>
+            <input type="email" class="contact--input contact--email" id="contact--email" name="email" required>
+        </div>
+        <div class="input--container input--container-phone">
+            <label for="contact--phone" class="contact--label contact--label-phone">Teléfono</label>
+            <input type="tel" class="contact--input contact--phone" id="contact--phone" name="telefono">
+        </div>
+    </div>
+
+    <div class="contact--right-side">
+        <label for="contact--msm" class="contact--label contact--label-msm">Mensaje</label>
+        <textarea class="contact--msm" id="contact--msm" name="mensaje" required></textarea>
+        <input type="submit" value="Enviar" class="contact--submit" id="contact--submit">
+    </div>
+</form>
+
+
+
     </div>
 </div>
+
+
 <img src="/assets/sombras/sentado.png" class="contact--sentado">
 
 <div class="contact--arrow-container">
